@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron:900" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <section>
+            <div class="money-container">
+                <div class="header">
+                    <h1><span class="dollar-left">&#36;</span> Money Mak'n <span class="dollar-right">&#36;</span></h1>
+                </div>
+
+                <form class="get-info">
+                    <div class="input-container">
+                        <label for="day-rate">What is your day rate?</label>
+                        <input class="day-rate" type="number" min="1" step="1">
+                    </div>
+                    <div class="input-container">
+                        <label for="hours">How many hours do you work a day?</label>
+                        <input class="hours" type="number" min="1" step="0.5">
+                    </div>
+                    <div class="input-container">
+                        <label for="actual-hours">How many hours do you ACTUALLY work a day?</label>
+                        <input class="actual-hours" type="number" min="1" step="0.5">
+                    </div>
+                </div>
+                <button class="btn" id="info-btn">Do you get paid enough?</button>
+
+                <div class="show-results">
+                    <div class="loaded">
+                        <h2>Share the love!!</h2>
+                        <p>You get paid way to much, a whopping <span class="good-dosh"></span> an hour.</p>
+                        <video src="https://i.giphy.com/media/uFtywzELtkFzi/giphy.mp4" autoplay="" loop="" muted="" playsinline="" onerror="this.onerror=()=>{};this.src='https://i.giphy.com/uFtywzELtkFzi.mp4';">
+                            <img src="https://i.giphy.com/uFtywzELtkFzi.gif " alt="">
+                        </video>
+                        <button class="btn check-again">Check again</button>
+                    </div>
+                    <div class="broke">
+                        <h2>Get another job maybe??</h2>
+                        <p><span class="bad-dosh"></span> an hour just doesn't cut the mustard to live your lavish lifestyle.</p>
+                        <video src="https://i.giphy.com/media/yIxNOXEMpqkqA/giphy.mp4" autoplay="" loop="" muted="" playsinline="" onerror="this.onerror=()=>{};this.src='https://i.giphy.com/yIxNOXEMpqkqA.mp4';">
+                            <img src="https://i.giphy.com/yIxNOXEMpqkqA.gif " alt="">
+                        </video>
+                        <button class="btn check-again">Check again</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
